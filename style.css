@@ -1,13 +1,112 @@
-*{font-family: Arial, Helvetica, sans-serif;
+html {
+    position: relative;
+    height: 100vw;
 }
 
-h1{ font-size:29px; 
-    color: green
+body {
+    background-color: antiquewhite;
 }
 
-a{ color: grey; 
-text-decoration:none; 
-font-family:Arial, Helvetica, sans-serif; 
-text-align: center
+.limpieza-items {
+    &:hover {
+        color: pink;
+    }
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    gap: 50px;
+    padding: 25px
+}
+
+footer {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-size: 29px;
+    color: rgb(23, 24, 23)
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+}
+
+.grid-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    gap: 10px;
+    text-align: justify;
+    font-size: large;
+}
+
+.section1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.listado {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-align: center;
+}
+
+.item {
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.marcas {
+    text-align: center;
+}
+
+
+.marcas-img {
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 1250px) {
+    .marcas-img {
+        height: 200px;
+        width: 200px;
+    }
+}
