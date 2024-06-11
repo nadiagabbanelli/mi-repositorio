@@ -2,21 +2,21 @@
 $color-blanco: #fafafa;
 
 
-*{ margin:0,;
-    padding:0;
-    }
     
     body{ background-color: beige;
     }
     
     header{ display: flex;
         justify-content: space-between;
+        align-items:center;
         font-family: Arial, Helvetica, sans-serif;
         padding: 15px;
-        border-bottom: solid gray;
-    
+        border-bottom: solid gray;        
+        }
+
         nav{
             ul{
+
                 display: flex;
                 list-style-type: none;
                 
@@ -25,4 +25,3 @@ $color-blanco: #fafafa;
             
         }
     
-    }
