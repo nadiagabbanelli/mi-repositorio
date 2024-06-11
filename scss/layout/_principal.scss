@@ -1,0 +1,32 @@
+.marcas{ 
+    h1{
+        text-align: center;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin:25px;
+        font-size: 2rem
+    }
+    p { text-align: center;
+        color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin:25px;
+        font-size: 2rem}
+    }
+    .fotosmarcas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-bottom:45px;
+
+        
+        .empresa {
+            display: flex;
+            flex-direction: column;
+            img{ width:10rem;
+            }
+            a{margin: left 10px;
+            color: gray}
+        }
+    }
+

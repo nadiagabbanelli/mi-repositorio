@@ -1,0 +1,17 @@
+// nesting o anidamiento= elemento padre y dentro en la sintaxis escribir elementos hijos, es como la sintaxis de html
+  
+
+//sass --watch carpetaDeSASS/archivo.scss css/style.css//
+
+@import "layout/header";
+@import "base/reset";
+@import "layout/skincare";
+@import "layout/principal";
+@import "media-queries/media-desktop";
+@import "components/botones";
+
+
+
+
+
+
