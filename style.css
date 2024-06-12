@@ -162,7 +162,7 @@ body {
   display: flex;
   background-color: grey;
   padding: 15px;
-  margin-top: 150px;
+  margin-top: 50px;
   text-decoration: none;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -170,6 +170,7 @@ body {
   border-radius: 5px;
 }
 .boton:hover, .boton-2:hover {
+  transform: translate(-65px, 80px);
   background-color: black;
   color: white;
 }
