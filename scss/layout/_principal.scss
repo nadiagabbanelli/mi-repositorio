@@ -1,13 +1,13 @@
 .marcas{ 
-    h1{
+    h2{
         text-align: center;
-        color:white;
+        color:grey;
         font-family: Arial, Helvetica, sans-serif;
         margin:25px;
         font-size: 2rem
     }
     p { text-align: center;
-        color:white;
+        color:grey;
         font-family: Arial, Helvetica, sans-serif;
         margin:25px;
         font-size: 2rem}
@@ -23,10 +23,11 @@
         .empresa {
             display: flex;
             flex-direction: column;
-            img{ width:10rem;
-            }
+            img{ width:300px;
+                height: 300px;
+                }
             a{margin: left 10px;
-            color: gray}
+            color: solid gray}
         }
     }
 
