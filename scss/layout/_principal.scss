@@ -6,7 +6,7 @@
         margin:25px;
         font-size: 2rem
     }
-    p { text-align: center;
+    @mixin p {text-align: center;
         color:grey;
         font-family: Arial, Helvetica, sans-serif;
         margin:25px;
